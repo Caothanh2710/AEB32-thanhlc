@@ -1,0 +1,10 @@
+.div_left {
+  flex: 0.5;
+  color: blue;
+  background-color: red;
+}
+.div_right {
+  flex: 0.5;
+  color: red;
+  background: blue;
+}
