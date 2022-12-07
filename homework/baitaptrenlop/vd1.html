@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+      header {
+        background-color: red;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+        height: 50px;
+        margin:  5px;
+       
+      }
+      nav {
+        border: 1px solid black;
+        background-color: blue;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        margin: 5px;
+        
+      }
+      .div_tong{
+        display: flex;
+        border: 1px solid black;
+        height: 500px;
+        margin: 5px;
+      }
+      .div_trai{
+        flex: 0.7;
+        border: 1px solid black;
+        flex-direction: column;
+        display: flex;
+      }
+     .div_phai{
+        flex: 0.3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        margin: 5px;
+        
+     }
+     .div_con1{
+        border: 1px solid black;
+        height: 250px;
+        margin: 5px;
+        flex: 0.5;
+     }
+     .div_con2{
+        height: 250px;
+        border: 1px solid black;
+        margin: 5px;
+        flex: 0.5;
+        
+     } 
+    </style>
+  </head>
+  <body>
+    <header>header</header>
+    <nav>nav </nav>
+    <div class="div_tong">
+        <div class="div_trai">
+            <div class="div_con1">section</div>
+            <div class="div_con2">aticle</div>
+        </div>
+        <div class="div_phai"> aside</div>
+      
+    </div>
+    
+  </body>
+</html>
