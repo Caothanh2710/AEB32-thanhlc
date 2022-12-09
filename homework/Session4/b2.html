@@ -1,178 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>baitap2</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+    <head>
+        <title>baitap2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            img{
+                border-radius: 1000px;
+                height: 150px;
+                position: relative;
+                top: 100px;
+                
+                
+            }
+            .div_tren{
+                background-image: url(	https://cdn.tgdd.vn/Files/2020/06/08/1261696/moi-tai-bo-hinh-nen-asus-rog-2020-moi-nhat_800x450.jpg);
+                height: 250px;
+                }
+                .div_chu{
+                    color: white;
+                    position: relative;
+                    left: 200px;
+                    bottom: 30px;
+                }
+                .div_hop{
+                    border: 1px solid rgb(224, 214, 214);
+                    height: 100px;
+                }
+                .div_hop{
+                    display: flex;
+                }
+                .div_trai{
+                    flex: 0.9;
+                    padding-top: 40px;
+                    font-size: 25px;
+                    padding-left: 20px;
+                    
+                }
+                .div_phai{
+                    flex: 0.1;
+                    background-color: red;
+                    border-radius: 10px;
+                    top: 150px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 30px;
+                    color: white;
+                    
 
-    <style>
-      .div_tong {
-        border: 1px solid blue;
-
-        height: 300px;
-        width: 700px;
-      }
-      .col-content {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-       
-      }
-      .div_top {
-        height: 150px;
-        border: 1px solid rebeccapurple;
-        text-align: center;
-        padding: 60px;
-      }
-      .div_size{
-        font-size: 30px;
-        color: darkcyan;
-      }
-      .div_bot {
-        border: 1px solid black;
-        height: 150px;
-        display: flex;
-      }
-      .div_tru1,
-      .div_tru2,
-      .div_tru3,
-      .div_tru4,
-      .div_tru5 {
-        flex-direction: column-reverse;
-        flex: 0.2;
-        /* border: 1px solid; */
-        margin: 5px;
-        display: flex;
-      }
-      .div_ten1 {
-        flex: 0.1;
-      }
-      .div_m1 {
-        flex: 0.2;
-        background-color: red;
-      }
-      .div_n1 {
-        flex: 0.7;
-        background: whitesmoke;
-      }
-      .div_ten2 {
-        flex: 0.1;
-      }
-      .div_m2 {
-        flex: 0.1;
-        background-color: green;
-      }
-      .div_n2 {
-        flex: 0.8;
-        background-color: whitesmoke;
-      }
-      .div_ten3 {
-        flex: 0.2;
-        
-      }
-      
-    
-      
+                }
+                 .div_phai1{
+                    flex: 0.1;
+                    background-color: rgb(51, 51, 245);
+                    border-radius: 10px;
+                    top: 150px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 30px;
+                    color: white;
+                }
+                .div_phai2{
+                    flex: 0.1;
+                    background-color: rgb(34, 211, 34);
+                    border-radius: 10px;
+                    top: 150px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 30px;
+                    color: white;
+                }
+                .div_phai3{
+                    flex: 0.1;
+                    background-color: rgba(255, 255, 13, 0.966);
+                    border-radius: 10px;
+                    top: 150px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 30px;
+                    color: white;
+                }
+                .div_phai4{
+                    flex: 0.1;
+                    background-color: orchid;
+                    border-radius: 10px;
+                    top: 150px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 30px;
+                    color: white;
+                }
     </style>
-  </head>
-  <body>
-    <div class="container ">
-      <div class="row">
-        <div class="col-3  col-content">
-          <div class="div_tong">
-            <div class="div_top">
-              <p>TODAY'S VISITORS</p>
-              <p class="div_size">24,599</p>
+    </head>
+    <body>
+        <div class="div_tong">
+            <div class="div_tren">
+                <div class="div_hinhanh">
+                    <img src="	https://haycafe.vn/wp-content/uploads/2021/11/Anh-avatar-dep-chat-lam-hinh-dai-dien.jpg" alt="hinhanh">
+                </div>
+                <div class="div_chu">
+                    <h1>Josep Max</h1>
+                    <p>Web designer</p>
+                </div>
             </div>
-            <div class="div_bot">
-              <div class="div_tru1">
-                <div class="div_ten1">Mon</div>
-                <div class="div_m1"></div>
-                <div class="div_n1"></div>
-              </div>
-              <div class="div_tru2">
-                <div class="div_ten2">Tue</div>
-                <div class="div_m2"></div>
-                <div class="div_n2"></div>
-              </div>
-
-              <div class="div_tru3">
-                <div class="div_ten1">Mon</div>
-                <div class="div_m1"></div>
-                <div class="div_n1"></div>
-              </div>
-              <div class="div_tru4">
-                <div class="div_ten1">Mon</div>
-                <div class="div_m1"></div>
-                <div class="div_n1"></div>
-              </div>
-              <div class="div_tru5">
-                <div class="div_ten1">Mon</div>
-                <div class="div_m1"></div>
-                <div class="div_n1"></div>
-              </div>
+            <div class="div_duoi">
+                <div class="div_hop">
+                    <div class="div_trai">Followers</div>
+                    <div class="div_phai">1,200</div>
+                </div>
+                <div class="div_hop">
+                    <div class="div_trai">FOLLOWING</div>
+                    <div class="div_phai1">1,200</div>
+                </div>
+                <div class="div_hop">
+                    <div class="div_trai">MESSAGES</div>
+                    <div class="div_phai2">1,200</div>
+                </div>
+                <div class="div_hop">
+                    <div class="div_trai">LIKES</div>
+                    <div class="div_phai3">1,200</div>
+                </div>
+                <div class="div_hop">
+                    <div class="div_trai">COMMENT</div>
+                    <div class="div_phai4">1,200</div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-3  col-content">
-          <div class="div_tong">
-            <div class="div_top">
-              <p>TODAY'S VISITORS</p>
-              <p class="div_size">24,599</p>
-            </div>
-            <div class="div_bot">
-              <div class="div_tru1">
-                <div class="div_ten1">Mon</div>
-                <div class="div_m1"></div>
-                <div class="div_n1"></div>
-              </div>
-              <div class="div_tru2">
-                <div class="div_ten2">Tue</div>
-                <div class="div_m2"></div>
-                <div class="div_n2"></div>
-              </div>
-
-              <div class="div_tru3">
-                <div class="div_ten1">Mon</div>
-                <div class="div_m1"></div>
-                <div class="div_n1"></div>
-              </div>
-              <div class="div_tru4">
-                <div class="div_ten1">Mon</div>
-                <div class="div_m1"></div>
-                <div class="div_n1"></div>
-              </div>
-              <div class="div_tru5">
-                <div class="div_ten1">Mon</div>
-                <div class="div_m1"></div>
-                <div class="div_n1"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-        <div class="col-3 col-content">colum3
-          
-        </div>
-        <div class="col-3  col-content">Colum4</div>
-      </div>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    
+    </body>
 </html>
