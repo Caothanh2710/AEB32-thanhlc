@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <script>
-            let num = prompt('nhap so nguyen n') 
-            var res = num % 10;
 
-            console.log(res);
-            var abc =  num/10 % 10;
-            console.log(abc);
-            
-            
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-            
-        </script>
-    
-    </body>
+<body>
+    <script>
+        let num = prompt('nhap so nguyen n')
+
+        var abc = ((parseInt(num / 10) % 10));
+        console.log(abc);
+        var res = num % 10;
+
+        console.log(res);
+
+
+
+    </script>
+
+</body>
+
 </html>
