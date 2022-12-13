@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script>
+      let s1 = "dEAR hAI";
+      let s2 = s1.toLowerCase();
+      const tach_dau = s2.split(" ");
+      let ket_qua;
+      let noi_chu = [];
+      let output = "";
+      for (const tung_chu of tach_dau) {
+        ket_qua = tung_chu[0].toUpperCase() + tung_chu.slice(1);
+        noi_chu.push(ket_qua);
+      }
+
+      output = noi_chu.join(" ");
+      console.log(output);
+    </script>
+  </body>
+</html>

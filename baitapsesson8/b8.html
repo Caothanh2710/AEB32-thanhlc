@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script>
+      let input1 = "HAPPY NEW YEAR 2021";
+      const tach_chu = input1.split(" ");
+      let noi_chu = [];
+      let output;
+      let ket_qua;
+      for (const so of tach_chu) {
+        ket_qua = so.length;
+        console.log(ket_qua);
+        noi_chu.push(ket_qua);
+      }
+      output = noi_chu.join(" ");
+      console.log(output);
+    </script>
+  </body>
+</html>

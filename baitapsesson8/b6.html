@@ -8,13 +8,23 @@
     </head>
     <body>
         <script>
-            
-            let n = 40 ;
-            var res = (n-1)/2;
-            alert(parseInt(res));
-          
+           const prompt = require('prompt-sync')();
+
+let n = prompt('nhap so nguyen duong n');
+let m = prompt('nhap so nguyen duong m') ;
+
+let ket_qua 
+
+for (let x = 0; x <= n && x <= m; x++) {
+    if (n % x === 0 && m % x ===0) {
+        ket_qua = x   
+    }
+    
+}
+console.log(ket_qua);
+
+
         </script>
     
     </body>
 </html>
-
