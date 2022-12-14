@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let n = prompt("nhap 1 so nguyen n : ");
+      let i = 2;
+      let uoc = [];
+      let abc = [];
+      let chotrong = "";
+      for (let x = 1; x <= n; x++) {
+        if (n % x === 0) {
+          abc.push(x);
+          // console.log(x);
+        }
+      }
+
+      while (n > 1) {
+        if (n % i === 0) {
+          n = n / i;
+          uoc.push(i);
+        } else {
+          i = i + 1;
+        }
+      }
+      let gia_tri = uoc.length;
+      for (let p = 0; p < gia_tri - 1; p++) {
+        chotrong = chotrong + uoc[p].toString() + "*";
+      }
+
+      chotrong = chotrong + uoc[gia_tri - 1].toString();
+      console.log(chotrong);
+      console.log(abc.length);
+    </script>
+  </body>
+</html>

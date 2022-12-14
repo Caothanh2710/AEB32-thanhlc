@@ -30,18 +30,46 @@
 // console.log(output);
 
 // ----------------------bai 8 -----------------
-let input1 = 'HAPPY NEW YEAR 2021'
-const tach_chu = input1.split(' ');
-let noi_chu = [];
-let output 
-let ket_qua
-for (const so of tach_chu) {
-    ket_qua = so.length
-    console.log(ket_qua);
-    noi_chu.push(ket_qua);
-    
+// let input1 = 'HAPPY NEW YEAR 2021'
+// const tach_chu = input1.split(' ');
+// let noi_chu = [];
+// let output
+// let ket_qua
+// for (const so of tach_chu) {
+//     ket_qua = so.length
+//     console.log(ket_qua);
+//     noi_chu.push(ket_qua);
+
+// }
+// output = noi_chu.join(" ");
+// console.log(output);
+// -------------bài 9 -----------------
+const prompt = require("prompt-sync")();
+let n = prompt('nhap 1 so nguyen n : ');
+let i = 2;
+let uoc = [];
+let abc = [];
+let chotrong = "";
+for (let x = 1; x <= n; x++) {
+  if (n % x === 0) {
+    abc.push(x);
+    // console.log(x);
+  }
 }
-output = noi_chu.join(" ");
-console.log(output);
 
+while (n > 1) {
+  if (n % i === 0) {
+    n = n / i;
+    uoc.push(i);
+  } else {
+    i = i + 1;
+  }
+}
+let gia_tri = uoc.length;
+for (let p = 0; p < gia_tri - 1; p++) {
+  chotrong = chotrong + uoc[p].toString() + "*";
+}
 
+chotrong = chotrong + uoc[gia_tri - 1].toString();
+console.log(chotrong);
+console.log(abc.length);
