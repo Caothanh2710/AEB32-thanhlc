@@ -1,0 +1,54 @@
+.nav_hop {
+}
+.div_tong {
+  height: 500px;
+  width: auto;
+}
+body {
+  background-image: url(https://img2.kienthucvui.vn/uploads/2022/06/23/anh-nen-lien-minh-huyen-thoai-dep_045725916.jpg);
+  padding: 0px;
+  margin: 0px;
+}
+
+.div_center {
+  display: flex;
+
+  height: 500px;
+}
+.div_trai {
+  flex: 0.2;
+
+  color: khaki;
+}
+.div_Menu {
+  padding: 20px;
+  font-size: 20px;
+}
+.slide {
+  padding: 20px;
+  border-bottom: 2px solid;
+}
+.div_giua {
+  flex: 0.6;
+}
+.div_phai {
+  flex: 0.2;
+  color: khaki;
+}
+.content {
+  text-align: center;
+}
+.riot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div_ket {
+  text-align: center;
+  color: red;
+  font-size: 15px;
+}
+#trang_chu{
+font-size: 25px;
+background-color: brown;
+}

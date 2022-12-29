@@ -1,0 +1,19 @@
+body{
+    background-image: url(https://thuthuatnhanh.com/wp-content/uploads/2020/01/hinh-nen-lien-minh-huyen-thoai-dep.jpg);
+ }
+ .user_table{
+    border: 5px solid lightgreen ;
+    width: 800px;
+    margin: 250px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    margin-top: 100px;
+    
+    
+}
+#input{
+    font-size: 30px;
+    color: gold
+}
