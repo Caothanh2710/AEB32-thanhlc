@@ -18,9 +18,12 @@ fetch(URL, {
 function _renderInfoUser(user) {
   let elm = document.getElementById("info__user");
   elm.innerHTML = `
-        <p>${user.id}</p>
-        <p>${user.name}</p>
-        <p>${user.city}</p>
-        <p>${user.avatar}</p>    
+        <p>id: ${user.id}</p>
+        <p>user name: ${user.name}</p>
+        <p>password: ${user.Password}</p>
+        <p>city: ${user.City}</p>
+        <p>avartar: ${user.avatar}</p>
+        <p>rank: ${user.rank}</p> 
     `;
 }
+console.log(_renderInfoUser);

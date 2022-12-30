@@ -14,11 +14,11 @@ function getUser() {
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
-      let elmId = document.getElementById("inputName");
-      let elmPs = document.getElementById("inputPassword");
+      let elmName = document.getElementById("inputName");
+      let elmPassword = document.getElementById("inputPassword");
       let elmAvatar = document.getElementById("inputAvatar");
-      elmId.value = data.name;
-      elmPS.value = data.ps;
+      elmName.value = data.name;
+      elmPassword.value = data.Password;
       elmAvatar = data.avatar;
     })
     .catch((error) => {
@@ -28,12 +28,12 @@ function getUser() {
 
 function handleSubit() {
   let elmName = document.getElementById("inputName");
-  let elmPs = document.getElementById("inputPassword");
+  let elmPassword = document.getElementById("inputPassword");
   let elmAvatar = document.getElementById("inputAvatar");
 
   let user = {
     name: elmName.value,
-    ps: elmPs.value,
+    Password: elmPassword.value,
     avatar: elmAvatar.value,
   };
   if (id) {

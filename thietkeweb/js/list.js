@@ -23,6 +23,7 @@ function getlistUser(abc) {
     <tr>
        <th scope="row">${user.id}</th>
        <td>${user.name}</td>
+       <td>${user.Password}</td>
        <td>${user.City}</td>
        <td>${user.avatar}</td>
        <td>${user.rank}</td>
